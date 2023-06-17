@@ -1,12 +1,7 @@
-baseURL = 'http://dirmanhana.github.io/'
-languageCode = 'id-id'
-title = 'Blog Dirmanhana'
-theme = 'yinyang'
-
-[params]
-disqus = "joway" # disqus account name
-extraHead = ''
-mainSections = ["posts"]
+baseURL = 'https://dirmanhana.github.io/'
+languageCode = 'en-us'
+title = 'dirman hana'
+theme = 'etch'
 
 [[menu.main]]
   name ="Home"
@@ -16,8 +11,3 @@ mainSections = ["posts"]
   name = "About"
   url = "/about/"
   weight = 2
-
-[[params.socials]]
-name = "RSS"
-link = "/index.xml"
-weight = 3
