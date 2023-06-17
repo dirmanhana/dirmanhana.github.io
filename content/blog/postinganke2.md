@@ -3,6 +3,7 @@ title: ini adlah postingan ke dua
 date: 2021-12-23T15:21:54+05:30
 categories: [development, publishing]
 author: dirman
+category: blog
 tags: [hugo,content,static site generator]
 ---
 

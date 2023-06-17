@@ -1,4 +1,23 @@
 baseURL = 'http://dirmanhana.github.io/'
 languageCode = 'id-id'
 title = 'Blog Dirmanhana'
-theme = yinyang
+theme = 'yinyang'
+
+[params]
+disqus = "joway" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+
+[[menu.main]]
+  name ="Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+weight = 3
